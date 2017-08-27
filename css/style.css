@@ -1,0 +1,58 @@
+
+body 
+{
+	max-width: 960px;
+	width:96%;
+	margin: 0 auto;
+	font-family: Arial;
+}
+main
+{
+	display: flex;
+}
+section{
+	width:350px;
+	margin: 0px 15px 15px 0px;
+	line-height: 25px;
+
+}
+
+header{
+	padding: 15px 15px;
+	background-color: orange;
+}
+figure
+{
+margin: 0;
+}
+
+figure img{
+	width: 150px;
+	height: 119px;
+}
+
+@media only screen and (max-width: 960px){ 
+   
+main
+	{
+    display:inline-block;
+	}
+section
+   {
+   	width: 100%;
+   	line-height: 25px;
+   }
+section h2{
+   	text-align: center;
+   }
+
+figure img 
+ {
+    width: 100%;
+    height: auto;
+}
+
+ }
+
+
+
